@@ -10,3 +10,11 @@ print(create_card("10","H"))
 print(create_card("A","S"))
 
 
+def compare_card(p1_card:dict, p2_card:dict):
+    if p1_card["velue"] > p2_card['velue']:
+        return'p1'
+    elif p1_card["velue"] < p2_card['velue']:
+        return 'p2'
+    elif p1_card["velue"] == p2_card['velue']:
+        return "WAR"
+    # test
