@@ -28,4 +28,13 @@ def create_deck() -> list[dict]:
             list_of_cards.append(create_card(rank,l))
     
     return list_of_cards
-#deffff
+
+    import random
+    for i in range(random.randrange(1,1001)):
+        list_of_cards[random.randint(1,51)]=list_of_cards[random.randint(1,51)]
+        
+        shuffle_list=list_of_cards
+        
+        
+                
+    return shuffle_list
