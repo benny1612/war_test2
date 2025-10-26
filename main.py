@@ -17,3 +17,4 @@ def compare_card(p1_card:dict, p2_card:dict):
         return 'p2'
     elif p1_card["velue"] == p2_card['velue']:
         return "WAR"
+    # test
