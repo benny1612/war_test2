@@ -28,4 +28,4 @@ def create_deck() -> list[dict]:
             list_of_cards.append(create_card(rank,l))
     
     return list_of_cards
-#test ##
+#deffff
